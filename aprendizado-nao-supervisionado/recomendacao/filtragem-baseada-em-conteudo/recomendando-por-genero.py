@@ -1,4 +1,4 @@
-#exemplo bem simples de filtragem baseada em conteudo
+#exemplo bem simples de filtragem baseada em conteudo mas não é uma implementação eficiente
 
 import pandas as pd
 

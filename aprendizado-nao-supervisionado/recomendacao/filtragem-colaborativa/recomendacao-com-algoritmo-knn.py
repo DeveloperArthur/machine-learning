@@ -1,4 +1,4 @@
-#uma implementação / variação do algoritmo KNN
+#uma implementação / variação do algoritmo KNN mas não é uma implementação eficiente
 
 import pandas as pd
 import numpy as np
