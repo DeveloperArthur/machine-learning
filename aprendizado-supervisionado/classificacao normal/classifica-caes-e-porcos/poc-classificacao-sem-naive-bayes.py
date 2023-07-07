@@ -55,7 +55,7 @@ result = predict(dados, marcacoes, dado_para_classificar)
 print(result) # deve printar 1
 
 #esse algoritmo não é eficiente, as vezes não acerta 
-# o resultado talvez a forma como estamos medindo a 
+# o resultado, talvez a forma como estamos medindo a 
 # distancia nao seja o ideal mas é um exemplo super 
 # simples de como os modelos de classificacao 
 # funcionam por baixo dos panos
