@@ -1,10 +1,10 @@
 import pandas as pd
 
-filmes = pd.read_csv("../movies.csv")
+filmes = pd.read_csv("movies.csv")
 filmes.columns = ["filmeId", "titulo", "generos"]
 filmes = filmes.set_index("filmeId")
 
-notas = pd.read_csv("../ratings.csv")
+notas = pd.read_csv("ratings.csv")
 notas.columns = ["usuarioId", "filmeId", "nota", "momento"]
 
 print(notas["filmeId"].value_counts()) #[filmeId, quantidade de notas]
