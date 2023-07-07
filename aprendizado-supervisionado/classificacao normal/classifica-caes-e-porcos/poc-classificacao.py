@@ -8,7 +8,7 @@ cachorro3 = [0, 0, 1]
 
 dados = [porco1, porco2, porco3, cachorro1, cachorro2, cachorro3]
 
-# 1 = cachorro & -1 = porco
+# 1 = porco & -1 = cachorro
 marcacoes = [1, 1, 1, -1, -1, -1]
 
 from sklearn.naive_bayes import MultinomialNB
@@ -23,7 +23,7 @@ misterioso3 = [0, 0, 1] #-1
 
 teste = [misterioso1, misterioso2, misterioso3]
 
-marcacoes_teste = [-1, 1, 1]
+marcacoes_teste = [-1, 1, -1]
 
 resultado = modelo.predict(teste)
 
