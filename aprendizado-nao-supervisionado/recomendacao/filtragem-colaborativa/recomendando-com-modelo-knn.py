@@ -1,18 +1,5 @@
 #Modelos de aprendizado não-supervisionado também treinam e preveem...
 
-#O "machine learning", essa ideia de "aprendizado de máquina" é referente aos modelos
-# pois os modelos treinam (fit) com os dados, e após o treino, são capazes de prever
-# pois "aprenderam" com os dados... 
-
-#Se você olhar algumas implementações nesse projeto verá que parece muito mais uma extração 
-# e analise de dados, pois não há nenhum processo de "aprendizagem" por meio dos dados
-# pois não estamos utilizando modelos...
-
-# Mas implementações dos modelos não fogem muito dessas implementações mais simples
-# que temos nesse projeto... Essas implementações mais simples, por mais que não utilizem 
-# modelo de machine learning, ainda são consideradas machine learning
-# só que são implementações menos eficientes...
-
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
