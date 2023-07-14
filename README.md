@@ -12,7 +12,7 @@ Um bom exemplo disso é:
 
 Se você olhar essas implementações verá que parecem muito mais uma extração e análise de dados, pois não há nenhum processo de "aprendizagem" por meio dos dados, são algoritmos simples.
 
-Mas essa ideia de "aprendizado de máquina" é referente aos modelos, pois os modelos treinam (fit) com os dados, e após o treino, são capazes de prever, pois "aprenderam" com os dados...
+A ideia de "aprendizado de máquina" é referente aos modelos, pois os modelos treinam (fit) com os dados, e após o treino, são capazes de prever, pois "aprenderam" com os dados...
 
 Um bom exemplo de implementações que utilizam modelos é:
 - [aprendizado-supervisionado/classificacao normal/classifica-caes-e-porcos/poc-classificacao.py](https://github.com/DeveloperArthur/machine-learning/blob/main/aprendizado-supervisionado/classificacao%20normal/classifica-caes-e-porcos/poc-classificacao.py)
