@@ -1,3 +1,9 @@
+# Tipos de Machine Learning
+
+![img](/assets/tipos.jpeg)
+
+# Definição
+
 Uma boa definição para Machine Learning é "um punhado de estatística, regressão linear e probabilidade aplicada"
 
 Um bom exemplo disso é: 
@@ -15,3 +21,11 @@ Um bom exemplo de implementações que utilizam modelos é:
 Por mais que não haja um processo de treinamento e aprendizado nas implementações mais simples, elas ainda são consideradas machine learning, pois machine learning nada mais é do que **fórmulas de estatística e probabilidade**, essas implementações podem não ser tão eficientes, mas são algoritmos de machine learning ainda sim.
 
 E vale lembrar que as implementações dos modelos não fogem muito dessas implementações mais simples, Machine Learning é "um punhado de estatística, regressão linear e probabilidade aplicada".
+
+# Referencias
+
+a maioria dos algoritmos deste projeto foram implementados e aprendidos estudando através destes materiais:
+
+![img](/assets/classificacao.jpeg)
+![img](/assets/recomendacao.png)
+![img](/assets/rl.jpeg)
