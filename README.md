@@ -28,4 +28,5 @@ a maioria dos algoritmos deste projeto foram implementados e aprendidos estudand
 
 ![img](/assets/classificacao.jpeg)
 ![img](/assets/recomendacao.png)
-![img](/assets/rl.jpeg)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zQUFxZsZODY/0.jpg)](https://www.youtube.com/watch?v=zQUFxZsZODY)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/uePeleYXD-0/0.jpg)](https://www.youtube.com/watch?v=uePeleYXD-0)
