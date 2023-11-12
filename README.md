@@ -34,6 +34,10 @@ Exemplo de implementações que utilizam modelos:
 
 Vale lembrar que as implementações dos modelos não fogem muito dessas implementações mais simples, por mais que as implementações dos modelos sejam mais complexas, Machine Learning é "um punhado de estatística, regressão linear e probabilidade aplicada" que tem a capaciade de prever resultados ou realizar tarefas sem ser explicitamente programados para isso.
 
+## Observação: 
+
+Antes de "Inteligência Artificial", esse campo de estudo tinha o nome de Estatística Multivariada, como esse nome não tinha muito apelo comercial, o termo foi trocado para "Inteligência Artificial", que soava mais atraente, evocava uma aura de ficção científica etc
+
 # Referencias
 
 a maioria dos algoritmos deste projeto foram implementados e aprendidos estudando através destes materiais:
