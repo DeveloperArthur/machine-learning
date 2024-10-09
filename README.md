@@ -49,11 +49,11 @@ O primeiro modelo neural, o neurônio de Mcculloch e Pitts, foi feito com portas
 
 E depois foram evoluindo para o que hoje chamamos de [Deep Learning](https://github.com/DeveloperArthur/machine-learning/blob/main/deep-learning)
 
+![img](/deep-learning/timeline.png)
+
 ## Curiosidade: 
 
 Antes de "Inteligência Artificial", esse campo de estudo tinha o nome de Estatística Multivariada, como esse nome não tinha muito apelo comercial, o termo foi trocado para "Inteligência Artificial", que soava mais atraente, evocava uma aura de ficção científica etc
-
-![img](/deep-learning/timeline.png)
 
 # Referencias
 
