@@ -38,7 +38,7 @@ Vale lembrar que as implementações dos modelos não fogem muito dessas impleme
 
 Antes de "Inteligência Artificial", esse campo de estudo tinha o nome de Estatística Multivariada, como esse nome não tinha muito apelo comercial, o termo foi trocado para "Inteligência Artificial", que soava mais atraente, evocava uma aura de ficção científica etc
 
-## Deep Learning (sub-área da Machine Learning)
+# Deep Learning (sub-área da Machine Learning)
 ![img](/deep-learning/ai-deep-machine.png)
 
 Tudo começou porque alguém se perguntou "E se a gente simulasse o cérebro humano?"
