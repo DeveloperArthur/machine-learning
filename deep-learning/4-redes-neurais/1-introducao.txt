@@ -1,0 +1,20 @@
+Um único perceptron comporta soluções de classificação binária
+somente duas classes (2-perceptron/classificacao-linear/modelo-linear-para-classificacao.png)
+ele tem essa limitação, mas e se tivermos um problema com múltiplas classes?
+
+E se você tiver que fazer um modelo (retas) para classificar cachorros, gatos e calopsitas?
+
+Um único perceptron, por mais que o problema seja linearmente separável, não vai conseguir
+porque não existe uma única reta que você consiga separar essas 3 classes
+
+E assim começa as redes neurais...
+
+Podemos treinar múltiplos perceptrons ao mesmo tempo, especializando cada um em um
+objetivo diferente... (tres-perceptrons.png)
+
+E aí teriamos 3 perceptrons, é basicamente isso que acontece no mundo das redes neurais
+
+A representação da rede neural vai ficar assim:
+2 dimensões como entrada (X1 e X2 que seria o vertical e horizontal do plano cartesiano)
+e 3 neurônios como saída, seriam 3 perceptrons na camada de saída
+(representacao-multiplas-camadas.png)

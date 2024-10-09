@@ -1,0 +1,14 @@
+A maioria dos problemas do mundo real possuem distribuições
+mais complexas e não podem ser solucionadas por transformações lineares
+são problemas não-linearmente separáveis
+
+Por exemplo uma make circles, make moon do scikit-learn (make-moons.png)
+ou uma ressonancia magnética (ressonancia.png)
+como classificar qual equipamento coletou a ressonancia???
+a gente consegue ver dois grupos claros mas não conseguimos
+separar com retas...
+
+Uma rede com uma única camada não consegue resolver essas distribuições
+É ai que entram as múltiplas camadas com perceptron
+
+(3-nnSequential.py e 4-nnModule.py)

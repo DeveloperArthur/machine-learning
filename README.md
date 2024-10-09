@@ -34,9 +34,26 @@ Exemplo de implementações que utilizam modelos:
 
 Vale lembrar que as implementações dos modelos não fogem muito dessas implementações mais simples, por mais que as implementações dos modelos sejam mais complexas, Machine Learning é "um punhado de estatística, regressão linear e probabilidade aplicada" que tem a capaciade de prever resultados ou realizar tarefas sem ser explicitamente programados para isso.
 
+## Deep Learning (sub-área da Machine Learning)
+![img](/deep-learning/ai-deep-machine.png)
+
+Tudo começou porque alguém se perguntou "E se a gente simulasse o cérebro humano?"
+
+![img](/deep-learning/ideia.png)
+
+E então criaram um modelo computacional inspirado no funcionamento do cérebro humano
+
+O primeiro modelo neural, o neurônio de Mcculloch e Pitts, foi feito com portas lógicas: 
+
+![img](/deep-learning/primeiro-modelo-neural.png)
+
+E depois foram evoluindo para o que hoje chamamos de [Deep Learning](https://github.com/DeveloperArthur/machine-learning/blob/main/deep-learning)
+
 ## Curiosidade: 
 
 Antes de "Inteligência Artificial", esse campo de estudo tinha o nome de Estatística Multivariada, como esse nome não tinha muito apelo comercial, o termo foi trocado para "Inteligência Artificial", que soava mais atraente, evocava uma aura de ficção científica etc
+
+![img](/deep-learning/timeline.png)
 
 # Referencias
 
@@ -46,3 +63,4 @@ a maioria dos algoritmos deste projeto foram implementados e aprendidos estudand
 ![img](/assets/recomendacao.png)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zQUFxZsZODY/0.jpg)](https://www.youtube.com/watch?v=zQUFxZsZODY)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/uePeleYXD-0/0.jpg)](https://www.youtube.com/watch?v=uePeleYXD-0)
+![img](/assets/deep-learning.png)
