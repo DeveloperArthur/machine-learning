@@ -58,7 +58,7 @@ rede neural otimizada, capaz de classificar as 3 classes de vinhos corretamente
 
 O GIF abaixo mostra a evolução do processo de otimização da rede neural, com o gráfico sendo plotado a cada 10 iterações:
 
-![img](./deep-learning/treinando-redes-neurais/resultado-final.gif)
+![img](./deep-learning/treinando-redes-neurais/otimizacaodarede_76Wp2QQJ.gif)
 
 Resultado final da rede otimizada:
 
