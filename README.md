@@ -38,22 +38,33 @@ Vale lembrar que as implementações dos modelos não fogem muito dessas impleme
 
 Antes de "Inteligência Artificial", esse campo de estudo tinha o nome de Estatística Multivariada, como esse nome não tinha muito apelo comercial, o termo foi trocado para "Inteligência Artificial", que soava mais atraente, evocava uma aura de ficção científica etc
 
-# Deep Learning (sub-área da Machine Learning)
-![img](/deep-learning/ai-deep-machine.png)
+# Deep Learning
 
-Tudo começou porque alguém se perguntou "E se a gente simulasse o cérebro humano?"
+**Otimizando uma Rede Neural Perceptron Multicamadas com PyTorch**
 
-![img](/deep-learning/ideia.png)
+Tínhamos dados de 3 classes de vinhos distribuídos no espaço, e precisávamos classifica-los corretamente,
+inicialmente, a rede neural tinha uma fronteira de decisão aleatória, e a classificação estava totalmente incorreta:
 
-E então criaram um modelo computacional inspirado no funcionamento do cérebro humano
+![img](./deep-learning/treinando-redes-neurais/fronteira-de-decisao-aleatoria.png)
 
-O primeiro modelo neural, o neurônio de Mcculloch e Pitts, foi feito com portas lógicas: 
+Para melhorar a classificação, primeiro realizamos a padronização dos dados utilizando `StandardScaler`, e depois
+otimizamos a rede, a otimização de redes neurais é um processo iterativo
 
-![img](/deep-learning/primeiro-modelo-neural.png)
+Durante a otimização, calculamos a função de perda (`CrossEntropyLoss`) e aplicamos o otimizador `torch.optim.SGD`
+(Descida do Gradiente Estocástica), a cada iteração executamos o Forward e Backpropagation para ajustar os pesos da rede
 
-E depois foram evoluindo para o que hoje chamamos de [Deep Learning](https://github.com/DeveloperArthur/machine-learning/blob/main/deep-learning)
+Iteramos 100 vezes, e cada passo de otimização ajudou a ajustar gradualmente a fronteira de decisão, isso resultou em uma
+rede neural otimizada, capaz de classificar as 3 classes de vinhos corretamente
 
-![img](/deep-learning/timeline.png)
+O GIF abaixo mostra a evolução do processo de otimização da rede neural, com o gráfico sendo plotado a cada 10 iterações:
+
+![img](./deep-learning/treinando-redes-neurais/resultado-final.gif)
+
+Resultado final da rede otimizada:
+
+![img](./deep-learning/treinando-redes-neurais/rede-otimizada.png)
+
+Todo o código está presente em: https://github.com/DeveloperArthur/machine-learning/tree/main/deep-learning/treinando-redes-neurais/3-otimizacao-da-rede.py
 
 # Referencias
 
