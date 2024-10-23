@@ -113,3 +113,44 @@ for i in range(100):
         plt.show()
 
 # rede-otimizada.png
+
+'''
+Lembrando que isso não é tudo, o processo de treinamento
+de uma rede neural passa pelos conceitos de iteração, batch, época 
+aqui nós só fizemos a iteração...
+
+um fluxo de treinamento comum seria assim:
+# Epochs
+for i in range(num_epochs):
+    # Iterations
+    for batch in train_data:
+        #Forward
+        ypred = net(batch)
+        loss = criterion(ypred, y)
+        
+        #Backpropagation
+        loss.backward()
+        optimizer.step()
+
+- batch é o conjunto de amostras vistas em uma única iteração 
+- uma época é completada quando todas as amostras de 
+treino foram utilizadas em pelo menos uma iteração
+
+"Ah mas porque só a iteração não é suficiente e é necessário ver as 
+mesmas amostras múltiplas vezes?"
+
+sim, para otimizar um modelo é necessário ver as mesmas 
+amostras múltiplas vezes, ou seja, múltiplas épocas
+como a otimização é um processo iterativo, dando pequenos 
+passos na superfície de erro, ver as amostras uma única vez 
+não é suficiente para alcançar um ponto mínimo de erro
+
+dar pequenos passos é importante, pois a cada iteração o 
+modelo conta apenas com a informação local daquele batch. 
+Ao final de cada época o modelo está um pouco mais próximo 
+da solução, sendo ideal otimizar durante múltiplas épocas.
+
+e além disso, ainda tem o fluxo de validação e 
+o cálculo de acurácia pra medir o desempenho do modelo  
+
+'''

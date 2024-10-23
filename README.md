@@ -50,10 +50,10 @@ inicialmente, a rede neural tinha uma fronteira de decisão aleatória, e a clas
 Para melhorar a classificação, primeiro realizamos a padronização dos dados utilizando `StandardScaler`, e depois
 otimizamos a rede, a otimização de redes neurais é um processo iterativo
 
-Durante a otimização, calculamos a função de perda (`CrossEntropyLoss`) e aplicamos o otimizador `torch.optim.SGD`
-(Descida do Gradiente Estocástica), a cada iteração executamos o Forward e Backpropagation para ajustar os pesos da rede
+Durante a otimização, calculamos a função de perda (`CrossEntropyLoss`), calculamos o gradiante com o otimizador `torch.optim.SGD`
+(Descida do Gradiente Estocástica), e atualizamos os pesos executando o Forward e Backpropagation
 
-Iteramos 100 vezes, e cada passo de otimização ajudou a ajustar gradualmente a fronteira de decisão, isso resultou em uma
+Repetimos esse processo 100 vezes, cada iteração ajustou gradualmente a fronteira de decisão, isso resultou em uma
 rede neural otimizada, capaz de classificar as 3 classes de vinhos corretamente
 
 O GIF abaixo mostra a evolução do processo de otimização da rede neural, com o gráfico sendo plotado a cada 10 iterações:
