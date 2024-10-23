@@ -42,7 +42,7 @@ input_size = data.shape[1]
 hidden_size = 32
 out_size = len(wine.target_names)
 
-# ./fundamentos/4-redes-neurais/3-nnSequential.py tem comentários explicando linha-a-linha
+# ./1-fundamentos/4-redes-neurais/3-nnSequential.py tem comentários explicando linha-a-linha
 net = nn.Sequential(nn.Linear(input_size, hidden_size),
                     nn.ReLU(),
                     nn.Linear(hidden_size, out_size),

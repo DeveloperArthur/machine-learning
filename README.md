@@ -45,7 +45,7 @@ Antes de "Inteligência Artificial", esse campo de estudo tinha o nome de Estat�
 Tínhamos dados de 3 classes de vinhos distribuídos no espaço, e precisávamos classifica-los corretamente,
 inicialmente, a rede neural tinha uma fronteira de decisão aleatória, e a classificação estava totalmente incorreta:
 
-![img](./deep-learning/treinando-redes-neurais/fronteira-de-decisao-aleatoria.png)
+![img](deep-learning/2-treinando-redes-neurais/fronteira-de-decisao-aleatoria.png)
 
 Para melhorar a classificação, primeiro realizamos a padronização dos dados utilizando `StandardScaler`, e depois
 otimizamos a rede, a otimização de redes neurais é um processo iterativo
@@ -58,11 +58,11 @@ rede neural otimizada, capaz de classificar as 3 classes de vinhos corretamente
 
 O GIF abaixo mostra a evolução do processo de otimização da rede neural, com o gráfico sendo plotado a cada 10 iterações:
 
-![img](./deep-learning/treinando-redes-neurais/otimizacaodarede_76Wp2QQJ.gif)
+![img](deep-learning/2-treinando-redes-neurais/otimizacaodarede_76Wp2QQJ.gif)
 
 Resultado final da rede otimizada:
 
-![img](./deep-learning/treinando-redes-neurais/rede-otimizada.png)
+![img](deep-learning/2-treinando-redes-neurais/rede-otimizada.png)
 
 Todo o código está presente em: https://github.com/DeveloperArthur/machine-learning/tree/main/deep-learning/treinando-redes-neurais/3-otimizacao-da-rede.py
 
