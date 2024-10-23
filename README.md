@@ -75,3 +75,4 @@ a maioria dos algoritmos deste projeto foram implementados e aprendidos estudand
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zQUFxZsZODY/0.jpg)](https://www.youtube.com/watch?v=zQUFxZsZODY)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/uePeleYXD-0/0.jpg)](https://www.youtube.com/watch?v=uePeleYXD-0)
 ![img](/assets/deep-learning.png)
+![img](/assets/deep-learning-2.png)
